@@ -20,15 +20,15 @@ void setup() {
 void loop() {
 
   Forward();
-  delay(2000);
+  delay(2000);  //move forward for 2 seconds
   Backward();
-  delay(2000);
+  delay(2000);  //move backward for 2 seconds
   Left();
-  delay(2000);
+  delay(2000);  //move left for 2 seconds
   Right();
-  delay(2000);
+  delay(2000);  //move right for 2 seconds
   Stop();
-  delay(2000);
+  delay(2000);  //stop for 2 seconds
 }
 
 // FUNCTIONS TO CHANGE THE DIRECTION OF THE WHEELS
