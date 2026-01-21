@@ -33,8 +33,8 @@ void loop() {
 
 // FUNCTIONS TO CHANGE THE DIRECTION OF THE WHEELS
 void Backward() {
-  analogWrite(enaPin,HIGH);
-  analogWrite(enbPin,HIGH);
+  digitalWrite(enaPin,HIGH);
+  digitalWrite(enbPin,HIGH);
   digitalWrite(in1,LOW);
   digitalWrite(in2,HIGH);
   digitalWrite(in3,LOW);
@@ -42,8 +42,8 @@ void Backward() {
 }
 
  void Forward() {
-  analogWrite(enaPin,HIGH);
-  analogWrite(enbPin,HIGH);
+  digitalWrite(enaPin,HIGH);
+  digitalWrite(enbPin,HIGH);
   digitalWrite(in1,HIGH);
   digitalWrite(in2,LOW);
   digitalWrite(in3,HIGH);
