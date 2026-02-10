@@ -25,7 +25,9 @@ This is a simple robot car <br>
 8. Battery chargers.
 9. Battery holders, brackets, protective case, etc. (if needed).
 
-_IMPORTANT NOTE: Do NOT make the robot heavy as this can put more load on the gear motors and cause the robot to NOT move._
+<br><br>
+
+_IMPORTANT NOTE: Do NOT make the robot heavy as this can put more load on the gear motors and cause the robot to NOT move. If the robot needs to be heavier, more powerful motors ranging between 5V to 46V must be used for the wheels. According to the required currect of the new motors, batteries also need to be replaced with batteries with higher current capacities. According to the required voltage for each new motor, batteries also should be replaced with batteries with higher voltage or more batteries of the same range should be connected in series with the already available batteries. As per the datasheet of L298N, the maximum voltage that can be handled by the L298N is 35V. But the recommended voltage is 5V to 12V, as above 12V the L298N can heat up. If the voltage exceeds 12V, the jumper of the L298N must be removed. Check out [this link](https://github.com/nazeehanimnaz/L298N-motor-driver-module/blob/main/README.md) to see how to calculate the exact amount of current and voltage required by a motor._
 
 <br>
 
