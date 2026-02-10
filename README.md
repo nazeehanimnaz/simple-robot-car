@@ -5,6 +5,8 @@ This is a simple robot car <br>
  - It moves forward for 2 seconds, then backwards for 2 seconds, then left for 2 seconds, then right for 2 seconds, and then stops for 2 seconds.
  - The process repeats until power is disconnected.
  - This is to show the basics of a robot car.
+ - To change the directions as desired, you need to make changes in the loop() function. Call each function for directions when necessary in the loop() function. Functions for the directions are coded below the loop().
+ - To control the car via a infra-red remote, refer to [this link](https://github.com/nazeehanimnaz/irremote-control-car) .
  
 <br>
 
